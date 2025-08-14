@@ -14,7 +14,7 @@ export async function onRequestGet(context) {
   // 'env' sekarang ada di dalam 'context'
   const env = context.env;
 
-  const res = await fetch(`${env.SUPABASE_URL}/rest/v1/test_crud?select=*`, {
+  const res = await fetch(`${env.SUPABASE_URL}/rest/v1/last?select=*`, {
     headers: {
       "apikey": env.SUPABASE_SERVICE_ROLE,
       "Authorization": `Bearer ${env.SUPABASE_SERVICE_ROLE}`

@@ -18,7 +18,7 @@ export async function onRequestPost(context) {
     const body = await request.json();
 
     // Lakukan request ke Supabase untuk memasukkan data baru
-    const res = await fetch(`${env.SUPABASE_URL}/rest/v1/test_crud`, {
+    const res = await fetch(`${env.SUPABASE_URL}/rest/v1/last`, {
       method: "POST",
       headers: {
         "apikey": env.SUPABASE_SERVICE_ROLE,

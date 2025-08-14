@@ -1,7 +1,7 @@
 // Ganti sesuai Supabase project kamu
 const SUPABASE_URL = "https://lhwicvwatoiafbtgludo.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxod2ljdndhdG9pYWZidGdsdWRvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUwNDE0ODQsImV4cCI6MjA3MDYxNzQ4NH0.GAch-_FHbEC7njaMlJizSP0fC_bQLFGooKagxo27N0w";
-const BUCKET = "test_crud_test1";
+const BUCKET = "produk";
 
 // Supabase client untuk upload file
 const { createClient } = window.supabase;

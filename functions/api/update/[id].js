@@ -19,7 +19,7 @@ export async function onRequestPut(context) {
     }
 
     // Lakukan request ke Supabase untuk update data berdasarkan ID
-    const res = await fetch(`${env.SUPABASE_URL}/rest/v1/test_crud?id=eq.${id}`, {
+    const res = await fetch(`${env.SUPABASE_URL}/rest/v1/last?id=eq.${id}`, {
       method: "PATCH",
       headers: {
         "apikey": env.SUPABASE_SERVICE_ROLE,

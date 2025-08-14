@@ -10,7 +10,7 @@ export async function onRequestDelete(context) {
     const id = params.id;
 
     // Lakukan request ke Supabase untuk menghapus data berdasarkan ID
-    const res = await fetch(`${env.SUPABASE_URL}/rest/v1/test_crud?id=eq.${id}`, {
+    const res = await fetch(`${env.SUPABASE_URL}/rest/v1/last?id=eq.${id}`, {
       method: "DELETE",
       headers: {
         "apikey": env.SUPABASE_SERVICE_ROLE,
