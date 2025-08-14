@@ -1,7 +1,7 @@
 # File: .gitignore
 
 # Abaikan file environment rahasia lokal
-# .dev.vars
+.dev.vars
 
 # Abaikan folder dependensi Node.js
 node_modules/
